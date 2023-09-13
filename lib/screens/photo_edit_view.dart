@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:network_image_options/draggable_text_widget.dart';
+import 'package:network_image_options/widgets/draggable_text_widget.dart';
 import 'package:photo_view/photo_view.dart';
 
-import 'color_picker_widget.dart';
-
-import 'network_image_options.dart';
-import 'utils.dart';
+import '../utils/utils.dart';
+import '../widgets/color_picker_widget.dart';
+import '../widgets/network_image_options.dart';
 
 class PhotoEditView extends StatefulWidget {
   const PhotoEditView({super.key});

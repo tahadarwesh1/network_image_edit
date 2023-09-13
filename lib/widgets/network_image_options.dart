@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:network_image_options/second_screen.dart';
-import 'package:network_image_options/utils.dart';
+import 'package:network_image_options/utils/utils.dart';
 
 class NetworkImageOptions extends StatelessWidget {
   final Function? showColorPicker;
